@@ -1,0 +1,40 @@
+.header-section {
+  display: flex;
+}
+
+.header-section a {
+  text-decoration: none;
+  color: black;
+}
+#logo-text {
+  margin-left: 70px;
+  font-size: 60px;
+  width: 500px;
+}
+
+
+#navbar-links {
+  display: flex;
+}
+
+#navbar-links li {
+  list-style: none;
+  margin-top: 42px;
+  margin-left: 60px;
+  font-size: 60px;
+  text-decoration: none;
+
+}
+
+
+
+#about-me-navlink {
+  width: 260px;
+}
+
+#contact-info-navlink {
+  width: 310px;
+  margin-right: 70px;
+}
+
+
