@@ -1,21 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import Card from "./components/card";
+import HeroSection from "./components/HeroSection";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+function App(props) {
   return (
     <>
-      
-     <h1 className="text-3xl font-bold underline" >
-      Hello
-     </h1>
-      
-    
+      <div className="m-9">
+        <HeroSection />
+      </div>
+      <div className="flex space-x-8">
+        <Card title="Who am I" />
+        <Card title="Projects" />
+        <Card title="The Timeline" />
+        <Card title="Achievements" />
+        <Card title="Experience" />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
